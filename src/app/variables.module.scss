@@ -21,6 +21,8 @@ $blue500: #4894FF;
 
 $yellow300: #FFB050;
 
+$gradientBlue: linear-gradient(180deg, $blue500 0%, #F2F8FF 100%);
+
 :export {
   greenDark900: $greenDark900;
   greenDark800: $greenDark800;
@@ -39,4 +41,5 @@ $yellow300: #FFB050;
   red400: $red400;
   blue500: $blue500;
   yellow300: $yellow300;
+  gradientBlue: $gradientBlue;
 }

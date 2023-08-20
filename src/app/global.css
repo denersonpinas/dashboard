@@ -25,6 +25,26 @@
     --yellow-300: #FFB050;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ecf0f2;
+    font-family: 'Roboto Mono';
+  }
+  
+  body #root {
+    width: 100%;
+  }
+
 h1 {
     color: var(--black-800, #464646);
     /* font/titulo/1 */
