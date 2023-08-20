@@ -1,4 +1,5 @@
 import './global.css'
+import variables from './variables.module.scss'
 
 export default function RootLayout({
     children,
