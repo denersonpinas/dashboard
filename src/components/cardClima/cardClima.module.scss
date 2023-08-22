@@ -1,0 +1,70 @@
+@import '@/src/app/variables.module.scss';
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    gap: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: $greenDark50;
+    box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.25);
+
+    &__icon {
+        width: 60px;
+    }
+
+    &__div {
+        width: 2px;
+        height: 60px;
+        background-color: $greenDark900;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        &__title {
+            color: $greenDark900;
+        }
+
+        &__buttons {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            gap: .5rem;
+
+            &__button {
+                border: none;
+                outline: none;
+                background-color: transparent;
+
+                color: $greenDark900;
+                /* font/titulo/3 */
+                font-family: 'Montserrat';
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 32px; /* 145.455% */
+
+                &--active {
+                    color: $green500;
+                    /* font/titulo/2 */
+                    font-family: 'Montserrat';
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 32px; /* 145.455% */
+                }
+            }
+
+            &__div {
+                width: 2px;
+                height: 32px;
+                background-color: $greenDark900;
+            }
+        }
+    }
+}
