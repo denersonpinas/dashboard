@@ -21,7 +21,14 @@
         "name": "next"
       }
     ],
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/src/*": ["src/*"],
+      "@/public/*": ["public/*"],
+      "@/components/*": ["src/components/*"],
+      "@/assets/*": ["src/assets/*"]
+    }
   },
   "include": [
     "next-env.d.ts",
@@ -31,5 +38,5 @@
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
 }

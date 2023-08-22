@@ -1,0 +1,9 @@
+.chart-mobile {
+    width: 642px;
+    position: absolute;
+    top: 140px;
+
+    @media(min-width: 740px) {
+        width: 95%;
+    }
+}
