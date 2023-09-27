@@ -1,27 +1,16 @@
 {
-  "name": "dashboard",
+  "name": "www",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "apexcharts": "^3.41.1",
-    "classnames": "^2.3.2",
-    "next": "^13.4.19",
-    "react": "^18.2.0",
-    "react-apexcharts": "^1.4.1",
-    "react-dom": "^18.2.0"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
-  "devDependencies": {
-    "@types/node": "20.5.1",
-    "@types/react": "18.2.20",
-    "eslint": "8.47.0",
-    "eslint-config-next": "13.4.19",
-    "sass": "^1.66.1",
-    "typescript": "5.1.6"
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest",
+    "next": "latest"
   }
 }
